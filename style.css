@@ -270,6 +270,9 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .pricing-container {
+        padding: 1rem;
+    }
     .pricing-header h1 {
         font-size: 2.2rem;
     }
@@ -277,5 +280,24 @@ body {
         grid-template-columns: 1fr;
         max-width: 400px;
         margin: 0 auto;
+    }
+    .company-profile {
+        flex-direction: column;
+        text-align: center;
+        border-radius: 24px;
+        padding: 1.5rem;
+        gap: 1rem;
+    }
+    .company-details {
+        align-items: center;
+    }
+    .meta-info {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    .brand-logo, .dev-avatar {
+        width: 60px;
+        height: 60px;
     }
 }
